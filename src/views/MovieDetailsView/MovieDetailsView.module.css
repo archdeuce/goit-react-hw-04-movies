@@ -1,0 +1,38 @@
+h2 {
+  color: rgb(241, 174, 50);
+}
+
+.movieContainer {
+  display: flex;
+  align-items: center;
+  align-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 10px;
+}
+
+.additionContainer + ul {
+  display: flex;
+}
+
+.movieDetails {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+.link {
+  color: rgb(131, 147, 238);
+  text-decoration: none;
+}
+
+.genresList {
+  display: inline-block;
+  list-style: disc;
+}
+
+.movieDetails > ul > li {
+  color: #666;
+}
